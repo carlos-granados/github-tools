@@ -11,8 +11,6 @@ The tools are provided in three formats:
 
 To generate the encoded version I used this page: https://mrcoles.com/bookmarklet/
 
-To generate the extension from the JS code I used this page: https://sandbox.self.li/bookmarklet-to-extension/
-
 To use the bookmarklet code, click on your bookmark bar and select `Add Page...`, enter the name that you want to use and in the URL box copy the encoded bookmarklet code. Then go to GitHub and click on the bookmarklet in your bookmark bar to activate it
 
 To use the extension, go to the `extensions` page in your Chrome settings and enable `Developer mode` (on the top right of the page). Then click on `Load Unpacked` and select the folder with the extension files. Click on the extension icon to activate it
