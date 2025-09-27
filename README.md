@@ -25,7 +25,7 @@ This can be used to track the time spent on a task. Go to the airtable page for 
 
 ### Comment extractor
 
-When clicked, it will extract all the GitHub comments from the page and copy them to the clipboard separated by ------- lines. You can then paste this into the AI of your choice and ask it to check all comments for spelling/grammar errors. This is great to do a last check on your PR comments before submitting them. Use the bookmarklet in the conversation tab of your PR, not the files changed tab so that it can pick both your inline and general comments.
+When clicked, it will extract all the GitHub comments from the page and copy them to the clipboard separated by `-------` lines. You can then paste this into the AI of your choice and ask it to check all comments for spelling/grammar errors. This is great to do a last check on your PR comments before submitting them. Use the bookmarklet in the conversation tab of your PR, not the files changed tab so that it can pick both your inline and general comments.
 
 ### Double click edit
 

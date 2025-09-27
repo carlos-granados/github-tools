@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Find and Replace",
+  "description": "Find and replace in all GitHub comments",
+  "version": "0.1.0",
+  "action": {
+    "default_title": "Find and Replace",
+    "default_icon": {
+      "16": "icon-16.png",
+      "48": "icon-48.png",
+      "128": "icon-128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["<all_urls>"],
+  "icons": {
+    "16": "icon-16.png",
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  },
+  "web_accessible_resources": [{
+    "resources": ["bookmarklet.js"],
+    "matches": ["<all_urls>"]
+  }],
+  "homepage_url": "https://github.com/carlos-granados/github-tools"
+}
