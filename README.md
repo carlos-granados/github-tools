@@ -29,7 +29,7 @@ When clicked, it will extract all the GitHub comments from the page and copy the
 
 ### Double click edit
 
-When you click the bookmarklet in any GitHub page then you can just double-click on any comment to edit it, which makes editing comments faster
+When you click the bookmarklet in any GitHub page then you can just double-click on any comment to edit it, which makes editing comments faster. The extension version is automatically enabled when you load any GitHub page, without having to clikc it, so it is probably more useful than the bookmarklet version
 
 ### Find And Replace
 
