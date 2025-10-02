@@ -34,3 +34,10 @@ When you click the bookmarklet in any GitHub page then you can just double-click
 ### Find And Replace
 
 This one allows you to do a "find and replace" in all comments in the GitHub page. Useful when you need to change the same text in multiple comments without having to edit them individually.
+
+### Copy button
+
+This one adds a copy button to all GitHub comments, making it easier to copy them when you need to use similar comments in different files or PRs
+
+### Comparison editor
+

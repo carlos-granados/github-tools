@@ -9,8 +9,8 @@ async function injectIntoTab(tabId) {
         await chrome.scripting.executeScript({
             target: { tabId, allFrames: false },
             func: () => {
-                if (window.__bookmarkletInjected) return true;
-                window.__bookmarkletInjected = true;
+                if (window.__copyButtonBookmarkletInjected) return true;
+                window.__copyButtonBookmarkletInjected = true;
                 return false;
             },
             world: "MAIN"
