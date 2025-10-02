@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Copy Button",
+  "description": "Add a Copy button to GitHub comments",
+  "version": "0.1.0",
+  "action": {
+    "default_title": "Copy Button",
+    "default_icon": {
+      "16": "icon-16.png",
+      "48": "icon-48.png",
+      "128": "icon-128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["scripting", "webNavigation"],
+  "host_permissions": [
+    "https://github.com/*",
+    "https://*.github.com/*"
+  ],
+  "icons": {
+    "16": "icon-16.png",
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  },
+  "web_accessible_resources": [{
+    "resources": ["bookmarklet.js"],
+    "matches": ["<all_urls>"]
+  }],
+  "homepage_url": "https://github.com/carlos-granados/github-tools"
+}
