@@ -41,3 +41,14 @@ This one adds a copy button to all GitHub comments, making it easier to copy the
 
 ### Comparison editor
 
+This one provides an app to help you edit all the comparison comments. To use it, load the comparison PR and edit the comparison file. Then click on the extension and a panel will open. It will have three tabs, one for each comparison, and it will collect all existing comments and let you edit them. You can also add new comments, remove them and copy them for easy duplication.
+
+It also has a "copy all" button ,which will copy all the comments for a comparison, so that you can paste them in any tool that will allow you to check them for grammar/spelling issues
+
+I have added a scoring column to each comment so that you can "score" them (use positive scoring for DiffA and negative scoring for DiffB) and it will calculate a total which can help you decide on the final score for each comparison
+
+It visually shows when you have less comments than the required minimum and when you have not yet added final score, so this helps to avoid submitting incomplete tasks
+
+When you click save, all these comments will be copied back to the comparison file. You can then check everything is OK and commit the changes.
+
+This one is only provided as a Chrome extension, the code was too big to fit into a bookmarklet
